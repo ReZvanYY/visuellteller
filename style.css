@@ -1,0 +1,33 @@
+.header{
+    text-shadow: 10px 10px 10px aquamarine;
+}
+
+.buttons1{
+    height: 60px;
+    width: 60px;
+    border: solid;
+    border-radius: 100px;
+    border-color: blue;
+
+}
+.buttons2{
+    height: 60px;
+    width: 60px;
+    border: solid;
+    border-radius: 100px;
+    border-color: red;
+}
+.row{
+ display: flex;
+flex-direction: row;
+gap: 50px;
+
+}
+.num{
+    font-size: xxx-large;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    height: auto;
+    width: 100px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Visuell teller</title>
+    <h1 class="header">Visuell Teller</h1>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <button onclick="minusOne()" class="buttons1">-1</button>
+        <div id="number" class="num"> 0 </div>
+        <button onclick="plussOne()" class="buttons2">+1</button>
+    </div>
+
+
+
+    <script>
+        let numberDiv = document.getElementById('number');
+        let numberResult = 0;
+
+        function setNumber() {
+            numberResult = 0;
+            numberDiv.innerHTML = numberResult;
+        }
+
+        function minusOne() {
+            numberResult--;
+            numberDiv.innerHTML = numberResult;
+        }
+        function plussOne() {
+            numberResult++;
+            numberDiv.innerHTML = numberResult;
+        }
+
+    </script>
+</body>
+
+</html>
